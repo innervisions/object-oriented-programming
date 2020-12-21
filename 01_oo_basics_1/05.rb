@@ -1,3 +1,4 @@
+# 05 - Hello Sophie! (Part 1)
 class Cat
   def initialize(name)
     @name = name

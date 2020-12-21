@@ -1,4 +1,4 @@
-# 07 - Reader
+# 07 - Identify Yourself (Part 2)
 class Cat
   attr_reader :name
 
@@ -6,10 +6,10 @@ class Cat
     @name = name
   end
 
-  def greet
-    puts "Hello my name is #{name}!"
+  def to_s
+    "I'm #{name}!"
   end
 end
 
 kitty = Cat.new('Sophie')
-kitty.greet
+puts kitty

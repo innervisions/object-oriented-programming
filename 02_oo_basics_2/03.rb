@@ -1,4 +1,4 @@
-# 09 - Accessor
+# 03 - Identify Yourself (Part 1)
 class Cat
   attr_accessor :name
 
@@ -6,12 +6,10 @@ class Cat
     @name = name
   end
 
-  def greet
-    puts "Hello! My name is #{name}!"
+  def identify
+    self
   end
 end
 
 kitty = Cat.new('Sophie')
-kitty.greet
-kitty.name = 'Luna'
-kitty.greet
+p kitty.identify
