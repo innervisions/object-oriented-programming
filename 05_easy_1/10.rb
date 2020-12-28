@@ -38,7 +38,7 @@ class Truck
 end
 
 # It could make sense to define a wheels method in Vehicle,
-# if all vehicles in our problem domain have wheels. In that case, 
+# if all vehicles in our problem domain have wheels. In that case,
 # wheels should be a valid method call for any subclass of Vehicle,
 # However for the base class we would need a default value, or
 # perhaps have it return nil.
